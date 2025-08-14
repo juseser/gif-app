@@ -5,7 +5,8 @@ Ideal para practicar hooks, manejo de estado y consumo de APIs.
 
 ## 🌐 Enlace en Producción
 
-🔗 [https://gif-app-practica.netlify.app/](https://gif-app-practica.netlify.app/)
+🔗 [https://gif-app-practica.netlify.app/](https://gif-app-practica.netlify.app/).
+
 
 ## 🚀 Características
 
