@@ -3,6 +3,10 @@
 Aplicación web desarrollada con **React** y **Vite** que permite buscar y mostrar GIFs animados en tiempo real, consumiendo una API externa.  
 Ideal para practicar hooks, manejo de estado y consumo de APIs.
 
+## 🌐 Enlace en Producción
+
+🔗 [https://gif-app-practica.netlify.app/](https://gif-app-practica.netlify.app/)
+
 ## 🚀 Características
 
 - 🔍 **Búsqueda dinámica** de GIFs por categorías.
@@ -66,10 +70,6 @@ src/
 └── main.jsx      # Punto de entrada
 ```
 
-## 📸 Capturas de pantalla
-
-*(Aquí puedes añadir imágenes o GIFs mostrando la app en funcionamiento)*
-
 ## 🧑‍💻 Autor
 
-**Juan Sebastian Serrano** – [Tu GitHub](https://github.com/juseser)  
+**Juan Sebastian Serrano** – [GitHub](https://github.com/juseser)  
