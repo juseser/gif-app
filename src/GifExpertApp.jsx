@@ -7,8 +7,9 @@ export const GifExpertApp = () => {
 
     const [ categorias , setCategorias ] = useState([ 'Batman' ]);//se inicializa el useState categorias como un arreglo
 
+    //Funcion para agregar una nueva categoria de gifs, recibe como argumento newCategory, el cual viene de AddCategory.jsx
     const onAddCategory = ( newCategory ) =>{
-        if ( categorias.includes(newCategory)) return;
+        if ( categorias.includes(newCategory)) return;//evita categorias duplicadas
         setCategorias( [ ...categorias, newCategory ] );
     }
     
@@ -23,7 +24,7 @@ export const GifExpertApp = () => {
         {/* Se pone entre llaves porque es una expresion de javascript */}
         { 
             categorias.map( ( categoria )=>(
-                <GifGrid  key={ categoria } categoria={ categoria }/>
+                <GifGrid  key={ categoria } categoria={ categoria }/>//React crea una instancia del componente GifGrid y la muéstra aquí
             ))//se ponen parentesis para no poner el return
         }
         
