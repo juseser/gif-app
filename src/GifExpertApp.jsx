@@ -3,7 +3,7 @@ import { AddCategory, GifGrid } from './components/';
 
 export const GifExpertApp = () => {
     
-    const [ categorias , setCategorias ] = useState([ 'Batman' ]);//se inicializa el useState categorias como un arreglo
+    const [ categorias , setCategorias ] = useState([ 'Batman' ]);//se inicializa el useState categorias como un array
 
     //Funcion para agregar una nueva categoria de gifs, recibe como argumento newCategory, el cual viene de AddCategory.jsx
     const onAddCategory = ( newCategory ) =>{

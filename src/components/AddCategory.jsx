@@ -12,8 +12,8 @@ export const AddCategory = ({ onNewCategory }) => { //esta es una prop que se en
     //evento para agregar la nueva categoria al array categorias
     const onSubmit = ( event )=>{
         event.preventDefault();
-        if( inputValue.trim().length <=1 ) return;
-        const valInput=inputValue.trim();
+        if( inputValue.trim().length <=1 ) return;//Valida que la caje de texto no tenga menos de 1 caracter
+        const valInput=inputValue.trim();//Asignamos lo que viene de inputValue a la variable valInput y le quitamos los espacios en blanco que traiga
         onNewCategory( valInput );//llamamos a la funcion que esta en GiftExpertApp y le pasamos lo que esta escrito en el input
         setInputValue('');//para limpiar nuestra caja de texto
     }

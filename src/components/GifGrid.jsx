@@ -5,7 +5,7 @@ import { useFetchGifs } from '../hooks/useFetchGifs';//Importamos nuestro hook p
 export const GifGrid = ({ categoria }) => {
 
     // Llamamos a nuestro hook personalizado pasándole la categoría
-    // useFetchGifs nos devuelve un objetoel cual desestructuramos con:
+    // useFetchGifs nos devuelve un objeto el cual desestructuramos con:
     // - imagenes: array de GIFs (cada uno con id, title, url)
     // - isLoading: booleano que indica si la carga está en progreso
     const { imagenes, isLoading} = useFetchGifs( categoria );
